@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="monitoring@localhost" uuid="a28e2d55-6aff-49d5-861a-e37ee5b692b7">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/monitoring</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="jpa-monitoring" uuid="17aa2b31-25a9-4c5e-a3f6-cc2be143e4f8">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Github/Java-ICTM2o4/Monitoring.Data/src/main/resources/META-INF/persistence.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.0.90:3306/monitoring</jdbc-url>
+    </data-source>
+  </component>
+</project>
